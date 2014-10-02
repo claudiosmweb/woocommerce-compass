@@ -688,6 +688,9 @@ p.demo_store {
 		input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
 			display:none;
 		}
+		input[type=number] {
+    			-moz-appearance:textfield;
+		}
 
 		input.qty {
 			width: 40px;
